@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
-    font-weight: bold;
 }
 
 :root{
@@ -29,6 +28,14 @@
 
 .row-reverse{
     flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column ;
+}
+
+.evenly{
+    justify-content: space-evenly;
 }
 
 
@@ -81,6 +88,7 @@ button{
 .bg-light{
 background-color: var(--bg-light);
 }
+/* hero */
 #hero{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -99,9 +107,15 @@ h1{
     font-size: xx-large;
     margin: 30px;
 }
+
 #browser-bt{
     background-color: var(--bg-black);
     color: white;
+}
+
+/* section */
+h2{
+    font-size: 3em;
 }
 
 .img{
@@ -109,6 +123,7 @@ h1{
 }
 .content{
     width: 40%;
+    height: 100%;
 }
 
 /* footer */
