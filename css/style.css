@@ -68,10 +68,8 @@ button{
     background-color: white;
     border-radius: 20px;
     border-color: transparent;
-}
-
-.inner-bt{
-    padding: 10px 15px;    
+    padding: 10px 15px;
+    margin: 10px;
 }
 
 /* main */
@@ -82,6 +80,28 @@ button{
 }
 .bg-light{
 background-color: var(--bg-light);
+}
+#hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 530px;
+    justify-content: center;
+    align-content: center;
+}
+
+#hero div{
+    text-align: center;
+    color: white;
+    width: 670px;
+}
+
+h1{
+    font-size: xx-large;
+    margin: 30px;
+}
+#browser-bt{
+    background-color: var(--bg-black);
+    color: white;
 }
 
 .img{
@@ -99,27 +119,35 @@ background-color: var(--bg-light);
     color: var(--bg-light);
     border-bottom: 2px solid var(--text-contrast);
 }
+
 .contrast{
     color: var(--text-contrast);
 }
+
 .bg-black{
     background-color: var(--bg-black);
 }
+
 #social{
     width: 150px;
 }
+
 #social img{
     width: 20px;
 }
+
 figure{
     display: inline-block;
 }
+
 #footer-top li{
     padding: 5px 0;
 }
+
 #footer-bottom{
     margin: 15px auto;
 }
+
 #footer-bt{
     background-color: var(--text-contrast);
     color: white;
